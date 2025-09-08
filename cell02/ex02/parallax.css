@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+    .parallax p{
+        color: black;
+        font-size: 20px;
+    }
+.parallax-1 {
+    background-image: url('https://uni-mafumafu.com/cdn/shop/files/Mafumart_bannar_top_budokanlive_2b52fe0e-6de1-4233-81fc-9e6fd54e6f01.jpg?v=1737350050&width=1920');
+}
+.parallax-2 {
+    background-image: url('https://spice.eplus.jp/images/ejAc75VrJslQx4lPeuPiJuo73UnkW6fyO0VpcVPMktokFi4BfPAfIUYVhKVfcl7z');
+}
+.content {
+    padding: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
