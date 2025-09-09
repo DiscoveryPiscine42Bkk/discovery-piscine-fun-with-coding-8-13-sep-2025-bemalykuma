@@ -1,0 +1,79 @@
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <style>
+        body{
+            background-color: rgb(206, 206, 206);
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: bold;
+            font-weight: bold;
+        }
+        .container {
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        p {
+            margin: 4px 0;
+        }
+        .container * {
+            border-radius: 5px;
+            
+        }
+        button {
+            border: none;
+            background-color: rgb(228, 52, 52);
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(201, 38, 38);
+        }
+        #new {
+            background-color: rgb(255, 255, 255);
+            width: 60px;
+            height: 40px;
+            font-size: large;
+            font-weight: bold;
+        }
+        #new:hover{
+            background-color: rgb(232, 232, 232);
+        }
+        #ft_list {
+            border: none;
+            padding: 16px 12px;
+            height: 500px;
+            margin-top: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            
+        }
+        #ft_list .todo {
+            border: none;
+            padding: 0px;
+            padding-left: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
+            background-color: #bcbcbc;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <center >    
+            <h1 style="color: rgb(0, 0, 0);">Todo List</h1>
+            <button id="new" onclick="newTodo()">New</button>
+        </center>
+        <div id="ft_list"></div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
