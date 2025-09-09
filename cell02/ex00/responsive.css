@@ -1,23 +1,29 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
 table {
     width: 100%;
-    height: 100%;
     border-collapse: collapse;
-    font-size: 32px;
+    font-size: 18px;
+    margin: auto;
 }
 td {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     border: 1px solid black;
+    text-align: center;
 }
 .cell1 {
     background-color: rgb(252, 255, 192);
 }
 .cell2 {
     background-color: rgb(255, 184, 184);
+}
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+    tr {
+        display: block;
+    }
+    td {
+        display: block;
+        width: 100%;
+    }
 }
